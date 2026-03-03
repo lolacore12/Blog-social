@@ -1,0 +1,21 @@
+blog-social/
+├─ backend/
+│  ├─ server.js
+│  ├─ database.sqlite  (ce sera créé automatiquement)
+│  └─ routes/
+│      ├─ auth.js
+│      └─ posts.js
+├─ frontend/
+│  ├─ package.json
+│  ├─ src/
+│      ├─ App.jsx
+│      ├─ components/
+│      │    ├─ Navbar.jsx
+│      │    ├─ PostCard.jsx
+│      │    └─ Comment.jsx
+│      └─ pages/
+│           ├─ Home.jsx
+│           ├─ Login.jsx
+│           ├─ Register.jsx
+│           └─ Profile.jsx
+└─ README.md
